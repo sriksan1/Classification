@@ -1,2 +1,3 @@
 # Classification
 RNN Classification project
+Cleaned the text by removing any url links to start and got rid of any characters that aren't lower or upper case letters,numbers, full stop, exclamation  mark, question mark. All other characters are replaced by a space. I then only used tokens in the rest of the text that had been used more than 3 times as my library dictionary. The rest was considered unknow and I tokenised each sample with this dictionary. 79 was the longest sequence length so I set all of them to 100 and padded the solution at the end. I then made a simple NN using a RNN network and and embedding layer as well as 1 standard simple NN layer before passing into a binary classifier for the final layer. 
