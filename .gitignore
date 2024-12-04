@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+!*.gitignore
+
+# Allow only Python files, Jupyter notebooks, and submission.csv
+!*.py
+!*.ipynb
+!submission.csv
+
+# Exclude specific folder
+train_nLPp5K8 (1)/
+
